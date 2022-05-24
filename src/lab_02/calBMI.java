@@ -7,12 +7,12 @@ public class calBMI {
         //Input Height
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("Please input your height (cm): ");
-        double yourHeight = scanner1.nextFloat()/100;
+        double yourHeight = scanner1.nextDouble()/100;
 
         //Input weight
         Scanner scanner2 = new Scanner(System.in);
         System.out.println("Please input your weight (kg): ");
-        double yourWeight = scanner2.nextFloat();
+        double yourWeight = scanner2.nextDouble();
 
 
         //calBMI

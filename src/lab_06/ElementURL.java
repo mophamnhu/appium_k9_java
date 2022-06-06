@@ -9,7 +9,8 @@ public class ElementURL {
         Scanner inputURL = new Scanner(System.in);
         String url = inputURL.nextLine();
 
-
+//String url = "https://google.com";
+//Check http OR https; domain name, .com OR .net
 
     }
 }

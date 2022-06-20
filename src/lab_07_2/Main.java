@@ -29,14 +29,11 @@ public class Main {
 
     public static Animal FasterAnimal (List<Animal> animalList ){
 
-       // List<Animal> tempWinner = new ArrayList<>();
         Animal animal = (Animal)animalList.get(0);
 
         for (Animal index : animalList) {
            if (index.getSpeed() > animal.getSpeed()){
                animal = index;
-              // tempWinner.clear();
-              // tempWinner.add(index);
            }
         }
         return animal;
